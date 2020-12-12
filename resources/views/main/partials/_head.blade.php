@@ -3,13 +3,16 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Modern Business - Start Bootstrap Template</title>
+<title>@yield('title')</title>
 
-<!-- Bootstrap core CSS -->
+{{-- <!-- Bootstrap core CSS --> --}}
 <link href="{{ asset('main_resources') }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom styles for this template -->
+{{-- <!-- Custom styles for this template --> --}}
 <link href="{{ asset('main_resources') }}/css/modern-business.css" rel="stylesheet">
+
+{{-- own css --}}
+<link href="{{ asset('main_resources') }}/css/style.css" rel="stylesheet">
 
 {{-- own page script and style --}}
 @yield('stylesheets')

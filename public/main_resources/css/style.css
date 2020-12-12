@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+body {
+    font-family: 'Open Sans';
+}
+
+/* navbar global */
+
+span#jd1 {
+    font-weight: 300;
+}
+
+span#jd2 {
+    font-weight: 600;
+}
+
+span#jd3 {
+    font-weight: 300;
+}
+
+/* navbar orange */
+
+nav#navorange {
+    background-color: #FAAB36;
+    height: 75px;
+}
+
+nav#navorange a.nav-link, nav#navorange a.navbar-brand {
+    color: #FFFFFF !important;
+}
+
+nav#navorange img {
+    width: 50px;
+}
