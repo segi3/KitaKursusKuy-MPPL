@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('main.pages.home');
-});
+Route::get('/', 'PageController@getHome');
 
 // ! testing blade dashboard
 Route::get('dashboard', function () {
