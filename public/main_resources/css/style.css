@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
-
 body {
     font-family: 'Open Sans';
 }
@@ -32,4 +31,56 @@ nav#navorange a.nav-link, nav#navorange a.navbar-brand {
 
 nav#navorange img {
     width: 50px;
+}
+
+/* footer */
+
+footer {
+    background-color: #FD5901;
+}
+
+/* home */
+.price-tag {
+    font-weight: 600;
+}
+.hr-tag {
+    font-weight: 300;
+}
+
+.ribbon-yellow {
+    margin: 0;
+    background-color: #FAAB36;
+    color: #FFFFFF;
+}
+
+.ribbon-yellow h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.ribbon-yellow p {
+    display: block;
+    text-align: center;
+}
+
+.ribbon-ligreen {
+    margin: 0;
+    background-color:#249ea079;
+    color: #FFFFFF;
+}
+
+.ribbon-ligreen h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.ribbon-ligreen p {
+    display: block;
+    text-align: center;
+}
+
+#kategori-pop a, #kategori-pop a:hover {
+    color: #FFFFFF;
+    text-decoration: none !important;
+    font-size: 2em;
 }
