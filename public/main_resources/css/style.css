@@ -33,6 +33,21 @@ nav#navorange img {
     width: 50px;
 }
 
+/* navbar white */
+
+nav#navwhite {
+    background-color: #FFFFFF;
+    height: 75px;
+}
+
+nav#navwhite a.nav-link, nav#navwhite a.navbar-brand {
+    color: #FD5901 !important;
+}
+
+nav#navwhite img {
+    width: 50px;
+}
+
 /* footer */
 
 footer {
@@ -83,4 +98,30 @@ footer {
     color: #FFFFFF;
     text-decoration: none !important;
     font-size: 2em;
+}
+
+/* kursus page */
+#nama-kursus {
+    color: #005F60;
+    font-weight: 600;
+}
+
+#partner-text {
+    color: #FD5901;
+}
+
+.div-subject {
+    margin: 20px 0px;
+}
+
+.subject {
+    background-color: #F3F3F3;
+    padding: 5px 10px;
+    color: #249EA0;
+    white-space:nowrap;
+}
+
+.kursus-body-header {
+    color: #005F60;
+    font-weight: 600;
 }
