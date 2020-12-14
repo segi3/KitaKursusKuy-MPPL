@@ -10,4 +10,9 @@ class PageController extends Controller
     {
         return view('main.pages.home');
     }
+
+    function getKursus()
+    {
+        return view('main.pages.kursus');
+    }
 }

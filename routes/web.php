@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@getHome');
 
+Route::get('kursus', 'PageController@getKursus');
+
 // ! testing blade dashboard
 Route::get('dashboard', function () {
     return view('dashboard.pages.home');
