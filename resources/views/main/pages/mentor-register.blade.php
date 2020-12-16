@@ -13,7 +13,7 @@
     }
 
     #register-area {
-        height: 79vh;
+        height: 100vh;
     }
 
 </style>
