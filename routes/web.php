@@ -17,5 +17,9 @@ Route::get('/', 'PageController@getHome');
 
 Route::get('kursus', 'PageController@getKursus');
 
+Route::get('user-login', 'PageController@getUserlogin');
+
+Route::get('mentor-login', 'PageController@getMentorlogin');
+
 // ! dashboard
 Route::get('dashboard', 'DashboardPageController@getHome');

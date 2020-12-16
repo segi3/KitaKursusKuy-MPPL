@@ -15,4 +15,14 @@ class PageController extends Controller
     {
         return view('main.pages.kursus');
     }
+
+    function getUserlogin()
+    {
+        return view('main.pages.user-login');
+    }
+
+    function getMentorlogin()
+    {
+        return view('main.pages.mentor-login');
+    }
 }
