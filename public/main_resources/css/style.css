@@ -4,6 +4,11 @@ body {
     font-family: 'Open Sans';
 }
 
+.btn-primary {
+    background-color: #FD5901 !important;
+    border-color:  #FD5901 !important;
+}
+
 /* navbar global */
 
 span#jd1 {

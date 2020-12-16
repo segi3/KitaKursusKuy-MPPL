@@ -15,5 +15,7 @@
 {{-- <!-- Custom styles for this template--> --}}
 <link href="{{ asset('dashboard_resources') }}/css/sb-admin-2.min.css" rel="stylesheet">
 
+<link href="{{ asset('dashboard_resources') }}/css/style.css" rel="stylesheet">
+
 {{-- own's page scripts and styles --}}
 @yield('stylesheets')
