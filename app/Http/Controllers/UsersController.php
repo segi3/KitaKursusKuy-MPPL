@@ -40,14 +40,14 @@ class UsersController extends Controller
         }
         catch(\Illuminate\Database\QueryException $e)
         {
-            // $errorCode = $e->errorInfo[1];
-            // $errorMsg = $e->errorInfo[2];
-            // if ($errorCode == 1062) {
-            //     return redirect('/');
-            // }
-            // Session::flash('error', $errorMsg);
-            // return redirect()->back();
-            return view('dashboard.pages.home');
+            $errorCode = $e->errorInfo[1];
+            $errorMsg = $e->errorInfo[2];
+            if ($errorCode == 1062) {
+                return redirect('/');
+            }
+            Session::flash('error', $errorMsg);
+            return redirect()->back();
+            // return view('dashboard.pages.home');
         }
         // catch (\Throwable $th) {
         //     //throw $th;
