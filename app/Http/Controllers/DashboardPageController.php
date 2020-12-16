@@ -10,4 +10,9 @@ class DashboardPageController extends Controller
     {
         return view('dashboard.pages.home');
     }
+
+    function getKursusSaya()
+    {
+        return view('dashboard.pages.kursus-my');
+    }
 }

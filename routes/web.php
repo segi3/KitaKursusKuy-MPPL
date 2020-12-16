@@ -39,3 +39,5 @@ Route::get('transaksi-privat', 'PageController@getTransaksiprivat');
 // ! testing blade dashboard
 
 Route::get('dashboard', 'DashboardPageController@getHome');
+
+Route::get('dashboard/kursus-my', 'DashboardPageController@getKursusSaya');

@@ -37,9 +37,6 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Kursus</h6>
                 <a class="collapse-item" href="buttons.html">Kursus saya</a>
-
-                <h6 class="collapse-header">Murid</h6>
-                <a class="collapse-item" href="buttons.html">Lihat murid</a>
             </div>
         </div>
     </li>
