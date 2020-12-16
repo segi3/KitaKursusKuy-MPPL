@@ -11,13 +11,17 @@
   .child-div {
       height: 100%
   }
-  </style>
+  #register-area{
+      height: 79vh;
+  }
 
+  </style>
+  
 @endsection
 
 @section('content')
-<div class="container py-5">
-    <div class="row register">
+<div class="container py-5 mt-5" id="register-area">
+    <div class="row register d-flex justify-content-center">
         <div class="col-lg-4 parent-div">
             <div class="row child-div">
                 <div class="col-12">
