@@ -26,22 +26,23 @@
             <div class="row child-div">
                 <div class="col-12">
                     <h3 id="daftar" style="font-weight: bold;">Daftar Akun</h3>
-                    <form>
+                    <form method="POST" action="{{ route('users.register') }}" enctype="multipart/form-data">
+                    @csrf
                     <div class="form-group"> 
                     <label for="username">Nama Lengkap</label>  
-                        <input type="text" class="form-control" name="username" required> 
+                        <input type="text" class="form-control" name="name_user" required> 
                     </div>
                     <div class="form-group"> 
                     <label for="alamat">Alamat</label> 
-                        <input type="text" class="form-control" name="alamat" required>
+                        <input type="text" class="form-control" name="address_user" required>
                     </div>
                     <div class="form-group"> 
                     <label for="email1">Email</label> 
-                        <input type="email" class="form-control" name="email1" required>
+                        <input type="email" class="form-control" name="email_user" required>
                     </div>
                     <div class="form-group">
                     <label for="password1">Password</label>  
-                        <input type="password" class="form-control" name="password1" required>
+                        <input type="password" class="form-control" name="password_user" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Daftar</button> 
                     </form>

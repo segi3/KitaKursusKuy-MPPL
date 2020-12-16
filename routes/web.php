@@ -22,6 +22,7 @@ Route::get('user-login', 'PageController@getUserlogin');
 Route::get('mentor-login', 'PageController@getMentorlogin');
 
 Route::get('user-register', 'PageController@getUserregister');
+Route::post('user-register', 'UsersController@Register')->name('users.register');
 
 Route::get('mentor-register', 'PageController@getMentorregister');
 
