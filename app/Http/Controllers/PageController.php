@@ -45,4 +45,35 @@ class PageController extends Controller
     {
         return view('main.pages.transaksi-privat');
     }
+
+    // ! hard code Konten Kursus
+    function getKontenKursus1()
+    {
+        return view('main.pages.kursus-konten');
+    }
+
+    function getKontenKursus2()
+    {
+        return view('main.pages.kursus-konten2');
+    }
+
+    function getKontenKursus3()
+    {
+        return view('main.pages.kursus-konten3');
+    }
+
+    function getKontenKursus4()
+    {
+        return view('main.pages.kursus-konten4');
+    }
+
+    function getKontenKursus5()
+    {
+        return view('main.pages.kursus-konten5');
+    }
+
+    function getKontenKursus6()
+    {
+        return view('main.pages.kursus-konten6');
+    }
 }
