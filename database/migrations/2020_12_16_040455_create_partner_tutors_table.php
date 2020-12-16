@@ -15,7 +15,8 @@ class CreatePartnerTutorsTable extends Migration
     {
         Schema::create('partner_tutors', function (Blueprint $table) {
             $table->bigIncrements('id_partner');
-            // $table->date('date_in_partner')->nullable()->default(new DateTime());
+            $table->bigInteger('mentor_id')->nullable()->unsigned();
+            $table->foreign('mentor_id')->references('id_mentor')->on('mentors')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamp('date_in_partner')->nullable();
             $table->timestamps();
         });

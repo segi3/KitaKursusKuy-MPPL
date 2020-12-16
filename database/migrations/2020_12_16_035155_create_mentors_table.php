@@ -15,12 +15,14 @@ class CreateMentorsTable extends Migration
     {
         Schema::create('mentors', function (Blueprint $table) {
             $table->bigIncrements('id_mentor');
+            $table->bigInteger('admin_id')->nullable()->unsigned();
             $table->string('name_mentor');
             $table->string('address_mentor');
             $table->string('email_mentor');
             $table->string('password_mentor');
             $table->string('pth_ktp_mentor');
             $table->string('status_mentor');
+            $table->foreign('admin_id')->references('id_admin')->on('admins')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
