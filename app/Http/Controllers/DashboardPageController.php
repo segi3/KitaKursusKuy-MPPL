@@ -15,4 +15,9 @@ class DashboardPageController extends Controller
     {
         return view('dashboard.pages.kursus-my');
     }
+
+    function getBuatKursus()
+    {
+        return view('dashboard.pages.kursus-buat');
+    }
 }

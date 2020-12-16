@@ -41,3 +41,5 @@ Route::get('transaksi-privat', 'PageController@getTransaksiprivat');
 Route::get('dashboard', 'DashboardPageController@getHome');
 
 Route::get('dashboard/kursus-my', 'DashboardPageController@getKursusSaya');
+
+Route::get('dashboard/buat-kursus', 'DashboardPageController@getBuatKursus');
