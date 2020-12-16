@@ -25,7 +25,7 @@
         <div class="col-lg-3 parent-div">
             <div class="row child-div">
                 <div class="col-12">
-                    <h3 id="login">Login</h3>
+                    <h3 id="login" style="font-weight: bold;">Login</h3>
                     <form>
                     <div class="form-group">   
                         <input type="email" class="form-control" placeholder="Enter Email" name="email" required> 

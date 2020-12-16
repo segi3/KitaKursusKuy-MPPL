@@ -25,7 +25,7 @@
         <div class="col-lg-3 parent-div">
             <div class="row child-div">
                 <div class="col-12">
-                    <h3 id="login">Login Mentor</h3>
+                    <h3 id="login1" style="font-weight: bold;">Login Mentor</h3>
                     <form>
                     <div class="form-group">   
                         <input type="email" class="form-control" placeholder="Enter Email" name="email" required> 

@@ -25,4 +25,14 @@ class PageController extends Controller
     {
         return view('main.pages.mentor-login');
     }
+
+    function getUserregister()
+    {
+        return view('main.pages.user-register');
+    }
+
+    function getMentorregister()
+    {
+        return view('main.pages.mentor-register');
+    }
 }
