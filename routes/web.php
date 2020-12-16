@@ -17,6 +17,10 @@ Route::get('/', 'PageController@getHome');
 
 Route::get('kursus', 'PageController@getKursus');
 
+Route::get('user-login', 'PageController@getUserlogin');
+
+Route::get('mentor-login', 'PageController@getMentorlogin');
+
 // ! testing blade dashboard
 Route::get('dashboard', function () {
     return view('dashboard.pages.home');
