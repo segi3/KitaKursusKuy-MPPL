@@ -26,6 +26,5 @@ Route::get('user-register', 'PageController@getUserregister');
 Route::get('mentor-register', 'PageController@getMentorregister');
 
 // ! testing blade dashboard
-Route::get('dashboard', function () {
-    return view('dashboard.pages.home');
-});
+
+Route::get('dashboard', 'DashboardPageController@getHome');
