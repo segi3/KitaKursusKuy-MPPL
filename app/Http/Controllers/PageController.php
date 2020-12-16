@@ -35,4 +35,14 @@ class PageController extends Controller
     {
         return view('main.pages.mentor-register');
     }
+
+    function getTransaksikursus()
+    {
+        return view('main.pages.transaksi-kursus');
+    }
+
+    function getTransaksiprivat()
+    {
+        return view('main.pages.transaksi-privat');
+    }
 }
