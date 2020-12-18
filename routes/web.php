@@ -16,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PageController@getHome');
 
 Route::get('kursus', 'PageController@getKursus');
+Route::get('kursus/1', 'PageController@getKursus1');
+Route::get('kursus/2', 'PageController@getKursus2');
+Route::get('kursus/3', 'PageController@getKursus3');
+Route::get('kursus/4', 'PageController@getKursus4');
+Route::get('kursus/5', 'PageController@getKursus5');
 Route::get('konten/1/1', 'PageController@getKontenKursus1');
 Route::get('konten/1/2', 'PageController@getKontenKursus2');
 Route::get('konten/1/3', 'PageController@getKontenKursus3');
