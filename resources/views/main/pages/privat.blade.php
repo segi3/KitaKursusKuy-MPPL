@@ -1,6 +1,6 @@
 @extends('main.layouts.layout-white')
 
-@section('title', 'Kursus!')
+@section('title', 'Privat!')
 
 @section('stylesheets')
 <style>
@@ -44,16 +44,30 @@
                 </div>
             </div>
         </div>
+        
         <div class="col-lg-2 parent-div">
-            <div class="row child-div d-flex align-content-center">
-                <div class="col-12">
-                    <h5 style="display: inline;">Rp 79.999</h5><span> /jam</span>
+            
+                <div class="row child-div d-flex align-content-center">
+                    <div class="col-12">
+                        <h5 style="display: inline;">Rp 79.999</h5><span> /jam</span>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <form action="">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Daring</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Luring</label>
+                        </div>
+                        <a href="" type="submit" class="btn btn-primary" style="width:100%;">Beli</a>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <a href="" class="btn btn-primary" style="width:100%;">Beli</a>
-                </div>
-            </div>
+            
         </div>
+        
     </div>
 </div>
 <div class="pt-5" style="background-color: #F3F3F3; height: 1000px;">
