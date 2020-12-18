@@ -25,7 +25,7 @@
 <div class="container pb-5">
     <div class="row kursus-head">
         <div class="col-lg-4">
-            <img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt="">
+            <img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/deep-learning.jpg" alt="">
         </div>
         <div class="col-lg-6 parent-div">
             <div class="row child-div">

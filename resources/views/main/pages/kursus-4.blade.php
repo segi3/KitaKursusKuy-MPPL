@@ -25,7 +25,7 @@
 <div class="container pb-5">
     <div class="row kursus-head">
         <div class="col-lg-4">
-            <img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt="">
+            <img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/ppt.jpg" alt="">
         </div>
         <div class="col-lg-6 parent-div">
             <div class="row child-div">
@@ -59,19 +59,16 @@
                                     <span class="subject">Pengenalan</span>
                                 </div>
                                 <div class="div-subject">
-                                    <span class="subject">Membuat Layout</span>
+                                    <span class="subject">Layout</span>
                                 </div>
                                 <div class="div-subject">
-                                    <span class="subject">Memilih Warna dan Font</span>
+                                    <span class="subject">Warna dan Font</span>
                                 </div>
                                 <div class="div-subject">
-                                    <span class="subject">Membuat Neural Network Sederhana</span>
+                                    <span class="subject">Gambar, Video, Grafik, dan Tabel</span>
                                 </div>
                                 <div class="div-subject">
-                                    <span class="subject">Memasukkan Gambar, Video, Grafik, dan Tabel</span>
-                                </div>
-                                <div class="div-subject">
-                                    <span class="subject">Membuat Transisi dan Animasi</span>
+                                    <span class="subject">Transisi dan Animasi</span>
                                 </div>
                             </div>
                         </div>
