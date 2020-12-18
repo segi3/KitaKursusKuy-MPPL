@@ -23,6 +23,8 @@ Route::get('konten/1/4', 'PageController@getKontenKursus4');
 Route::get('konten/1/5', 'PageController@getKontenKursus5');
 Route::get('konten/1/6', 'PageController@getKontenKursus6');
 
+Route::get('privat', 'PageController@getPrivat');
+
 Route::get('user-login', 'PageController@getUserlogin');
 
 Route::get('mentor-login', 'PageController@getMentorlogin');

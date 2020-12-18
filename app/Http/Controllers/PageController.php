@@ -76,4 +76,10 @@ class PageController extends Controller
     {
         return view('main.pages.kursus-konten6');
     }
+
+    // ! privat
+    function getPrivat()
+    {
+        return view('main.pages.privat');
+    }
 }
