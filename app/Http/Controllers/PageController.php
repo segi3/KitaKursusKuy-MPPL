@@ -46,7 +46,7 @@ class PageController extends Controller
         return view('main.pages.transaksi-privat');
     }
 
-    // Deskripsi Kursus
+    // Isi Kursus
     function getKursus1()
     {
         return view('main.pages.kursus-1');
@@ -107,5 +107,31 @@ class PageController extends Controller
     function getPrivat()
     {
         return view('main.pages.privat');
+    }
+
+    // Isi Privat
+    function getPrivat1()
+    {
+        return view('main.pages.privat-1');
+    }
+
+    function getPrivat2()
+    {
+        return view('main.pages.privat-2');
+    }
+
+    function getPrivat3()
+    {
+        return view('main.pages.privat-3');
+    }
+
+    function getPrivat4()
+    {
+        return view('main.pages.privat-4');
+    }
+
+    function getPrivat5()
+    {
+        return view('main.pages.privat-5');
     }
 }

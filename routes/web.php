@@ -29,6 +29,11 @@ Route::get('konten/1/5', 'PageController@getKontenKursus5');
 Route::get('konten/1/6', 'PageController@getKontenKursus6');
 
 Route::get('privat', 'PageController@getPrivat');
+Route::get('privat/1', 'PageController@getPrivat1');
+Route::get('privat/2', 'PageController@getPrivat2');
+Route::get('privat/3', 'PageController@getPrivat3');
+Route::get('privat/4', 'PageController@getPrivat4');
+Route::get('privat/5', 'PageController@getPrivat5');
 
 Route::get('user-login', 'PageController@getUserlogin');
 
