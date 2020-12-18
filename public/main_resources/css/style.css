@@ -53,6 +53,50 @@ nav#navwhite img {
     width: 50px;
 }
 
+/* home - mentor */
+.mheading {
+    margin: 150px 0px 150px 50px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#collagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mcollage {
+    flex: 25%;
+    max-width: 33%;
+}
+
+.mcollage img {
+    margin-top: 100px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.kheading {
+    font-size: 55px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.card-kat {
+    height: 100%;
+    background-color: #5c5c5c8a;
+}
+
+.card-kat a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-kat a:hover {
+    color: #FD5901;
+}
+
 /* footer */
 
 footer {

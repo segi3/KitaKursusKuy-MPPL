@@ -3,7 +3,16 @@
 @section('title', 'KitaKursusKuy!')
 
 @section('stylesheets')
+<style>
+    #mentorSection {
+        background-color: black;
+    }
 
+    #kategoriSection {
+        background-color: black;
+    }
+
+</style>
 @endsection
 
 @section('content-header')
@@ -44,9 +53,271 @@
 @endsection
 
 @section('content')
-<div class="container">
+{{-- mentor --}}
+<div id="mentorSection" class="px-5 py-5">
+    <div class="row mt-5">
+        <div class="col-lg-7">
+            <div class="row" id="collagecontainer">
+                <div class="col-lg-4 mcollage">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-startup-stock-photos-7369(1).jpg" alt="">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-cottonbro-4753927.jpg" alt="">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-rodnae-productions-6192176.jpg" alt="">
+                </div>
+                <div class="col-lg-4 mcollage">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-kyle-loftus-3379933.jpg" alt="">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-mentatdgt-2173508.jpg" alt="">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-hitesh-choudhary-1261427.jpg" alt="">
+                </div>
+                <div class="col-lg-4 mcollage">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-burst-374054.jpg" alt="">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-gabriel-santos-fotografia-2102568.jpg"
+                        alt="">
+                    <img src="{{ asset('main_resources') }}/home/mentor/pexels-budgeron-bach-5149569.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="mheading">
+                Guru
+            </div>
+            <div class="mheading">
+                Pelatih
+            </div>
+            <div class="mheading">
+                Seniman
+            </div>
+            <div class="mheading">
+                Mentor
+            </div>
+            <div class="mheading">
+                Para ahli di bidangnya
+            </div>
+        </div>
+    </div>
 
-    <h1 class="my-5" style="text-align: center">Kursus Populer</h1>
+</div>
+<div id="kategoriSection" class="px-5 py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="kheading col-lg-6">
+                        +100
+                    </div>
+                    <div class="kheading col-lg-6">
+                        Subjek
+                        <p style="color: #979797; font-weight: 600; font-size: 30px;">
+                            Pengetahuan yang tak terbatas
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="d-flex justify-content-center my-5 py-5">
+                    <p style="color: #ffffff;">
+                        apa yang ingin anda pelajari?
+                    </p>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="card border-0 card-kat">
+                            <div class="card-body">
+                                <strong style="color: #999999;">Akademik</strong>
+                                <p class="mt-3">
+                                    <a href="">Bimbingan Akademik</a>
+                                </p>
+                                <p>
+                                    <a href="">Matematika</a>
+                                </p>
+                                <p>
+                                    <a href="">Fisika</a>
+                                </p>
+                                <p>
+                                    <a href="">Kimia</a>
+                                </p>
+                                <p>
+                                    <a href="">Biologi</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card border-0 card-kat">
+                            <div class="card-body">
+                                <strong style="color: #999999;">Bahasa</strong>
+                                <p class="mt-3">
+                                    <a href="">Bimbingan Akademik</a>
+                                </p>
+                                <p>
+                                    <a href="">Bahasa Inggris</a>
+                                </p>
+                                <p>
+                                    <a href="">Bahasa Jerman</a>
+                                </p>
+                                <p>
+                                    <a href="">Bahasa Jepang</a>
+                                </p>
+                                <p>
+                                    <a href="">Bahasa Russia</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card border-0 card-kat">
+                            <div class="card-body">
+                                <strong style="color: #999999;">Teknologi</strong>
+                                <p class="mt-3">
+                                    <a href="">Komputer dan Internet</a>
+                                </p>
+                                <p>
+                                    <a href="">Mobile</a>
+                                </p>
+                                <p>
+                                    <a href="">Jaringan</a>
+                                </p>
+                                <p>
+                                    <a href="">Kecerdasan Buatan</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card border-0 card-kat">
+                            <div class="card-body">
+                                <strong style="color: #999999;">Musik</strong>
+                                <p class="mt-3">
+                                    <a href="">Gitar</a>
+                                </p>
+                                <p>
+                                    <a href="">Menyanyi</a>
+                                </p>
+                                <p>
+                                    <a href="">Drum</a>
+                                </p>
+                                <p>
+                                    <a href="">Biola</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card border-0 card-kat">
+                            <div class="card-body">
+                                <strong style="color: #999999;">Olahraga</strong>
+                                <p class="mt-3">
+                                    <a href="">Personal Trainer</a>
+                                </p>
+                                <p>
+                                    <a href="">Tinju</a>
+                                </p>
+                                <p>
+                                    <a href="">Renang</a>
+                                </p>
+                                <p>
+                                    <a href="">Sepak Bola</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card border-0 card-kat">
+                            <div class="card-body">
+                                <strong style="color: #999999;">Seni</strong>
+                                <p class="mt-3">
+                                    <a href="">Melukis</a>
+                                </p>
+                                <p>
+                                    <a href="">Akting</a>
+                                </p>
+                                <p>
+                                    <a href="">Menari</a>
+                                </p>
+                                <p>
+                                    <a href="">Memasak</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="caraKerja">
+    <div class="container">
+        <div class="" style="margin-top: 100px; margin-bottom: 100px;">
+            <h1 style="font-weight: 700; text-align: center;">Bagaimana cara kerja KitaKursusKuy?</h1>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-1 d-flex">
+                        <div class="align-self-center" style="display: inline">
+                            <h3 style="font-weight: 600;">Temukan Kursus dengan materi terlengkap</h3>
+                            <p>
+                                Cek subjek yang diberikan oleh masing-masing mentor dan ikuti kursus tersebut sampai
+                                selesai
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-7">
+                        <img style="width: 100%;" src="{{ asset('main_resources') }}/home/svg/undraw_studying_s3l7.svg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 my-5">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <img style="width: 100%;" src="{{ asset('main_resources') }}/home/svg/undraw_teaching_f1cm.svg"
+                            alt="">
+                    </div>
+                    <div class="col-lg-4 d-flex">
+                        <div class="align-self-center" style="display: inline">
+                            <h3 style="font-weight: 600;">Temukan mentor yang sempurna</h3>
+                            <p>
+                                Cek materi dan review guru secara bebas dan dapatkan ilmu langsung dari mentor terbaik
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-1 d-flex">
+                        <div class="align-self-center" style="display: inline">
+                            <h3 style="font-weight: 600;">Partner Mentor Kami<img class="ml-1" src="partner-logo.png"
+                                    width="25px" alt=""></h3>
+                            <p>
+                                Salah satu mentor terbaik kami! Profil berkualitas tinggi, kualifikasi sudah
+                                terverifikasi, dan akan selalu merespon permintaan kursus Anda
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-7">
+                        <img style="width: 100%;"
+                            src="{{ asset('main_resources') }}/home/svg/undraw_quitting_time_dm8t.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-5 my-5">
+
+    <h1 class="my-5" style="text-align: center; font-weight: 600;">Kursus Populer</h1>
 
     <!-- Marketing Icons Section -->
     <div class="row" id="kurus-pop">
@@ -159,7 +430,7 @@
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
-                        
+
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
                 </div>
@@ -175,7 +446,7 @@
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
-                        
+
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
                 </div>
@@ -191,7 +462,7 @@
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
-                        
+
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
                 </div>
@@ -207,7 +478,7 @@
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
-                        
+
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
                 </div>
@@ -223,7 +494,7 @@
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
-                        
+
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
                 </div>
@@ -239,7 +510,7 @@
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
-                        
+
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
                 </div>
@@ -255,7 +526,7 @@
         <a href="#" class="btn btn-primary ">Cari mentor</a>
     </div>
 </div>
-
+{{-- 
 <div class="container" id="kategori-pop">
     <div class="row">
         <div class="col-lg-4 d-flex justify-content-center align-content-center" style="background-color: #F78104;">
@@ -278,7 +549,7 @@
         </div>
         
     </div>
-</div>
+</div> --}}
 
 <div class="ribbon-ligreen my-5 pt-5 pb-5">
     <h1 class="">Daftar menjadi mentor sekarang!</h1>
