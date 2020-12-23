@@ -53,9 +53,9 @@
                         Rafi Nizar A.
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-                        <a class="dropdown-item" href="#">Pembelian</a>
-                        <a class="dropdown-item" href="#">Kursus</a>
-                        <a class="dropdown-item" href="#">Privat</a>
+                        <a class="dropdown-item" href="transaksi">Pembelian</a>
+                        <a class="dropdown-item" href="kursus-ku">Kursus</a>
+                        <a class="dropdown-item" href="privat-ku">Privat</a>
                     </div>
                 </li>
             </ul>

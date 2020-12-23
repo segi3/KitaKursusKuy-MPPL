@@ -48,9 +48,9 @@ Route::get('mentor-register', 'PageController@getMentorregister');
 
 Route::get('transaksi', 'PageController@getTransaksi');
 
-Route::get('transaksi-kursus', 'PageController@getTransaksikursus');
+Route::get('kursus-ku', 'PageController@getTransaksikursus');
 
-Route::get('transaksi-privat', 'PageController@getTransaksiprivat');
+Route::get('privat-ku', 'PageController@getTransaksiprivat');
 
 // ! testing blade dashboard
 
