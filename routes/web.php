@@ -44,6 +44,8 @@ Route::post('user-register', 'UsersController@Register')->name('users.register')
 
 Route::get('mentor-register', 'PageController@getMentorregister');
 
+Route::get('transaksi', 'PageController@getTransaksi');
+
 Route::get('transaksi-kursus', 'PageController@getTransaksikursus');
 
 Route::get('transaksi-privat', 'PageController@getTransaksiprivat');
