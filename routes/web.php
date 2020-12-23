@@ -21,13 +21,15 @@ Route::get('kursus/2', 'PageController@getKursus2');
 Route::get('kursus/3', 'PageController@getKursus3');
 Route::get('kursus/4', 'PageController@getKursus4');
 Route::get('kursus/5', 'PageController@getKursus5');
+
+// ! hardcoded
 Route::get('konten/1/1', 'PageController@getKontenKursus1');
 Route::get('konten/1/2', 'PageController@getKontenKursus2');
 Route::get('konten/1/3', 'PageController@getKontenKursus3');
 Route::get('konten/1/4', 'PageController@getKontenKursus4');
 Route::get('konten/1/5', 'PageController@getKontenKursus5');
 Route::get('konten/1/6', 'PageController@getKontenKursus6');
-
+// ! hardcoded
 Route::get('privat', 'PageController@getPrivat');
 Route::get('privat/1', 'PageController@getPrivat1');
 Route::get('privat/2', 'PageController@getPrivat2');

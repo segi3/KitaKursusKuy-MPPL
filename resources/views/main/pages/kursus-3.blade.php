@@ -22,7 +22,7 @@
 
 @section('content')
 
-<div class="container pb-5">
+<div class="container pb-5" style="margin-top: 100px;">
     <div class="row kursus-head">
         <div class="col-lg-4">
             <img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/deep-learning.jpg" alt="">
