@@ -14,10 +14,15 @@
                         Kursus
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="#">Kategori 1</a>
-                        <a class="dropdown-item" href="#">Kategori 2</a>
-                        <a class="dropdown-item" href="#">Kategori 3</a>
-                        <a class="dropdown-item" href="#">Kategori 4</a>
+                        <a class="dropdown-item" href="#">Akademik</a>
+                        <a class="dropdown-item" href="#">Development</a>
+                        <a class="dropdown-item" href="#">Bisnis</a>
+                        <a class="dropdown-item" href="#">Finansial</a>
+                        <a class="dropdown-item" href="#">Teknologi dan Software</a>
+                        <a class="dropdown-item" href="#">Desain</a>
+                        <a class="dropdown-item" href="#">Olahraga</a>
+                        <a class="dropdown-item" href="#">Seni</a>
+                        <a class="dropdown-item" href="#">Musik</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -26,21 +31,27 @@
                         Privat
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="#">Kategori 1</a>
-                        <a class="dropdown-item" href="#">Kategori 2</a>
-                        <a class="dropdown-item" href="#">Kategori 3</a>
-                        <a class="dropdown-item" href="#">Kategori 4</a>
+                        <a class="dropdown-item" href="#">Akademik</a>
+                        <a class="dropdown-item" href="#">Development</a>
+                        <a class="dropdown-item" href="#">Bisnis</a>
+                        <a class="dropdown-item" href="#">Finansial</a>
+                        <a class="dropdown-item" href="#">Teknologi dan Software</a>
+                        <a class="dropdown-item" href="#">Desain</a>
+                        <a class="dropdown-item" href="#">Olahraga</a>
+                        <a class="dropdown-item" href="#">Seni</a>
+                        <a class="dropdown-item" href="#">Musik</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         {{-- <img src="default-profile.jpg" alt=""> --}}
-                        User
+                        Rafi Nizar A.
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-                        <a class="dropdown-item" href="#">Dashboard (mentor only)</a>
-                        <a class="dropdown-item" href="#">Pembelian Saya (user only)</a>
+                        <a class="dropdown-item" href="#">Pembelian</a>
+                        <a class="dropdown-item" href="#">Kursus</a>
+                        <a class="dropdown-item" href="#">Privat</a>
                     </div>
                 </li>
             </ul>
