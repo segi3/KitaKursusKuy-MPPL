@@ -4,6 +4,10 @@
 
 @section('stylesheets')
 <style>
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     #mentorSection {
         background-color: black;
     }
@@ -11,11 +15,23 @@
     #kategoriSection {
         background-color: black;
     }
+    #myVideo {
+        width: 100vw;
+    }
+    #title-vid {
+        position: absolute; /* Reposition logo from the natural layout */
+        left: 75px;
+        top: 500px;
+        width: 300px;
+        height: 200px;
+        z-index: 2;
+        color: #ffffff;
+    }
 
 </style>
 @endsection
 
-@section('content-header')
+{{-- @section('content-header')
 <header class="mt-3">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -50,6 +66,19 @@
         </a>
     </div>
 </header>
+@endsection --}}
+
+@section('content-header')
+<div style="background-color: black;">
+    <video autoplay muted loop id="myVideo" style="z-index: -1;">
+        <source src="{{ asset('main_resources') }}/superprof_trouvez-le-professeur-parfait_desktop.mp4" type="video/mp4">
+    </video>
+    <div id="title-vid">
+        <h1><span id="jd1">Kita</span><span id="jd2">Kursus</span><span id="jd3">Kuy!</span></h1>
+        <p>Kuasai hobi dan bakatmu</p>
+    </div>
+    
+</div>
 @endsection
 
 @section('content')
@@ -519,7 +548,7 @@
     </div>
 </div>
 
-<div class="ribbon-yellow my-5 pt-5 pb-5">
+<div class="ribbon-yellow mt-5 pt-5 pb-5">
     <h1 class="">Kursus Privat</h1>
     <p>Kami privat bagi kalian yang sedang mencari mentor</p>
     <div class="d-flex justify-content-center">
@@ -551,11 +580,26 @@
     </div>
 </div> --}}
 
-<div class="ribbon-ligreen my-5 pt-5 pb-5">
-    <h1 class="">Daftar menjadi mentor sekarang!</h1>
-    <p>Gabung menjadi mentor dan dapatkan manfaatnya</p>
-    <div class="d-flex justify-content-center">
-        <a href="#" class="btn btn-primary ">Daftar Mentor</a>
+<div class="row" style="height: 50vh;">
+    <div class="col-6 ribbon-orange d-flex">
+        <div class="align-self-center">
+            <h1 class="">Tunggu apalagi? Mulai kembangkankan bakat mu!</h1>
+            <p>Daftar akun sekarang</p>
+            <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-primary ">Daftar Akun</a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="col-6 ribbon-ligreen d-flex">
+        <div class="align-self-center">
+            <h1 class="">Berbagi ilmu dengan semua orang!</h1>
+            <p>Daftar menjadi mentor</p>
+            <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-primary ">Daftar Mentor</a>
+            </div>
+        </div>
+        
     </div>
 </div>
 

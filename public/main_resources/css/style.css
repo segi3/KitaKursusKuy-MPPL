@@ -111,6 +111,22 @@ footer {
     font-weight: 300;
 }
 
+.ribbon-orange {
+    margin: 0;
+    background-color:#fd5901a1;
+    color: #FFFFFF;
+}
+
+.ribbon-orange h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.ribbon-orange p {
+    display: block;
+    text-align: center;
+}
+
 .ribbon-yellow {
     margin: 0;
     background-color: #FAAB36;
