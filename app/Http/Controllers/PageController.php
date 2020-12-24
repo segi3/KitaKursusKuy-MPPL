@@ -108,6 +108,16 @@ class PageController extends Controller
         return view('main.pages.kursus-konten6');
     }
 
+    // ! hard code forum diskusi
+    function getForumDiskusi()
+    {
+        return view('main.pages.forum-diskusi');
+    }
+    function getForumDiskusiThread()
+    {
+        return view('main.pages.forum-thread');
+    }
+
     // ! privat
     function getPrivat()
     {

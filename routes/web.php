@@ -36,6 +36,9 @@ Route::get('privat/2', 'PageController@getPrivat2');
 Route::get('privat/3', 'PageController@getPrivat3');
 Route::get('privat/4', 'PageController@getPrivat4');
 Route::get('privat/5', 'PageController@getPrivat5');
+// !hardcoded
+Route::get('/forum/1', 'PageController@getForumDiskusi');
+Route::get('/forum/1/1', 'PageController@getForumDiskusiThread');
 
 Route::get('user-login', 'PageController@getUserlogin');
 
