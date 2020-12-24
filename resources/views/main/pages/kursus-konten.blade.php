@@ -116,7 +116,7 @@
                             <a href="/konten/1/2"><span class="subject">Bab 1: Exposure</span></a>
                         </div>
                         <div class="div-subject">
-                            <a href="/konten/1/3"><span class="subject">Bab 2: Arpeture</span></a>
+                            <a href="/konten/1/3"><span class="subject">Bab 2: Aperture</span></a>
                         </div>
                         <div class="div-subject">
                             <a href="/konten/1/4"><span class="subject">Bab 3: Shutter Speed</span></a>
