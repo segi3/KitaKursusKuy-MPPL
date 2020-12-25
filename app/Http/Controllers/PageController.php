@@ -72,6 +72,11 @@ class PageController extends Controller
         return view('main.pages.kursus-5');
     }
 
+    function getKursus6()
+    {
+        return view('main.pages.kursus-6');
+    }
+
     // ! hard code Konten Kursus
     function getKontenKursus1()
     {
@@ -133,5 +138,10 @@ class PageController extends Controller
     function getPrivat5()
     {
         return view('main.pages.privat-5');
+    }
+
+    function getPrivat6()
+    {
+        return view('main.pages.privat-6');
     }
 }

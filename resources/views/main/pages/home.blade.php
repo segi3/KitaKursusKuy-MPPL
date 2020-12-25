@@ -323,10 +323,10 @@
     <div class="row" id="kurus-pop">
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/fotografi.png" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Kursus</h5>
-                    <p class="card-text">Author-kursus</p>
+                    <h5 class="card-title">Fotografi</h5>
+                    <p class="card-text">Rafi N</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
@@ -337,10 +337,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/jepang.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Kursus</h5>
-                    <p class="card-text">Author-kursus</p>
+                    <h5 class="card-title">Bahasa Jepang Tingkat Pemula</h5>
+                    <p class="card-text">Fredi S</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
@@ -351,10 +351,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/deep-learning.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Kursus</h5>
-                    <p class="card-text">Author-kursus</p>
+                    <h5 class="card-title">Mengenal Deep Learning</h5>
+                    <p class="card-text">A Rohman</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
@@ -365,10 +365,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/ppt.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Kursus</h5>
-                    <p class="card-text">Author-kursus</p>
+                    <h5 class="card-title">Dasar Microsoft Power Point Tingkat Pemula</h5>
+                    <p class="card-text">Edi Naga</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
@@ -379,10 +379,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/art.png" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Kursus</h5>
-                    <p class="card-text">Author-kursus</p>
+                    <h5 class="card-title">Skill Dasar Dalam Menggambar</h5>
+                    <p class="card-text">Rani Z</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
@@ -393,10 +393,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/gitar.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Kursus</h5>
-                    <p class="card-text">Author-kursus</p>
+                    <h5 class="card-title">Belajar Gitar dari 0</h5>
+                    <p class="card-text">Maman A</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
                         <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
@@ -422,10 +422,10 @@
     <div class="row" id="kurus-pop">
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/1.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Mentor</h5>
-                    <p class="card-text">Materi/judul-privat</p>
+                    <h5 class="card-title">Eja Suryono</h5>
+                    <p class="card-text">Bahasa Jerman</p>
                     <div class="row">
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
@@ -438,10 +438,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/2.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Mentor</h5>
-                    <p class="card-text">Materi/judul-privat</p>
+                    <h5 class="card-title">Chelsea Hassanah</h5>
+                    <p class="card-text">Personal Trainer</p>
                     <div class="row">
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
@@ -454,10 +454,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/3.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Mentor</h5>
-                    <p class="card-text">Materi/judul-privat</p>
+                    <h5 class="card-title">Banara Wisnu Pranowo</h5>
+                    <p class="card-text">Pemrograman Web/Android</p>
                     <div class="row">
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
@@ -470,10 +470,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/4.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Mentor</h5>
-                    <p class="card-text">Materi/judul-privat</p>
+                    <h5 class="card-title">Winda Prastuti</h5>
+                    <p class="card-text">Akting Seni Peran</p>
                     <div class="row">
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
@@ -486,10 +486,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/5.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Mentor</h5>
-                    <p class="card-text">Materi/judul-privat</p>
+                    <h5 class="card-title">Irfan Maulana</h5>
+                    <p class="card-text">Ilmu Pengetahuan Alam</p>
                     <div class="row">
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
@@ -502,10 +502,10 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/6.jpg" alt=""></a>
                 <div class="card-body">
-                    <h5 class="card-title">Nama-Mentor</h5>
-                    <p class="card-text">Materi/judul-privat</p>
+                    <h5 class="card-title">Rini Paramita Lestari</h5>
+                    <p class="card-text">Biola</p>
                     <div class="row">
                         <div class="col-9">
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
