@@ -36,6 +36,11 @@ class PageController extends Controller
         return view('main.pages.mentor-register');
     }
 
+    function getTransaksi()
+    {
+        return view('main.pages.transaksi');
+    }
+
     function getTransaksikursus()
     {
         return view('main.pages.transaksi-kursus');
@@ -106,6 +111,16 @@ class PageController extends Controller
     function getKontenKursus6()
     {
         return view('main.pages.kursus-konten6');
+    }
+
+    // ! hard code forum diskusi
+    function getForumDiskusi()
+    {
+        return view('main.pages.forum-diskusi');
+    }
+    function getForumDiskusiThread()
+    {
+        return view('main.pages.forum-thread');
     }
 
     // ! privat

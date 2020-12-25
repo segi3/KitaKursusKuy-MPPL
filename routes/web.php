@@ -29,7 +29,7 @@ Route::get('konten/1/3', 'PageController@getKontenKursus3');
 Route::get('konten/1/4', 'PageController@getKontenKursus4');
 Route::get('konten/1/5', 'PageController@getKontenKursus5');
 Route::get('konten/1/6', 'PageController@getKontenKursus6');
-
+// ! hardcoded
 Route::get('privat', 'PageController@getPrivat');
 Route::get('privat/1', 'PageController@getPrivat1');
 Route::get('privat/2', 'PageController@getPrivat2');
@@ -47,9 +47,11 @@ Route::post('user-register', 'UsersController@Register')->name('users.register')
 
 Route::get('mentor-register', 'PageController@getMentorregister');
 
-Route::get('transaksi-kursus', 'PageController@getTransaksikursus');
+Route::get('transaksi', 'PageController@getTransaksi');
 
-Route::get('transaksi-privat', 'PageController@getTransaksiprivat');
+Route::get('kursus-ku', 'PageController@getTransaksikursus');
+
+Route::get('privat-ku', 'PageController@getTransaksiprivat');
 
 // ! testing blade dashboard
 

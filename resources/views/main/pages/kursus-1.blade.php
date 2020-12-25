@@ -22,7 +22,7 @@
 
 @section('content')
 
-<div class="container pb-5">
+<div class="container pb-5" style="margin-top: 100px;">
     <div class="row kursus-head">
         <div class="col-lg-4">
             <img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/fotografi.png" alt="">
@@ -33,7 +33,7 @@
                     <h3 id="nama-kursus">Fotografi</h3>
                 </div>
                 <div class="col-12">
-                    <img class="mr-2" src="partner-logo.png" width="25px" alt=""><span id="partner-text">Partner Mentor</span>
+                    <img class="mr-2" src="{{ asset('main_resources') }}/partner-logo.png" width="25px" alt=""><span id="partner-text">Partner Mentor</span>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                             <div class="card-body row">
                                 <div class="col-3 d-flex justify-content-end align-items-center">
                                     <div>
-                                        <img class="mr-2" src="partner-logo.png" width="100px" alt="">
+                                        <img class="mr-2" src="{{ asset('main_resources') }}/partner-logo.png" width="100px" alt="">
                                     </div>
                                     
                                 </div>

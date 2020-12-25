@@ -100,7 +100,7 @@ nav#navwhite img {
 /* footer */
 
 footer {
-    background-color: #FD5901;
+    background-color:  #005F60;
 }
 
 /* home */
@@ -109,6 +109,22 @@ footer {
 }
 .hr-tag {
     font-weight: 300;
+}
+
+.ribbon-orange {
+    margin: 0;
+    background-color:#fd5901a1;
+    color: #FFFFFF;
+}
+
+.ribbon-orange h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.ribbon-orange p {
+    display: block;
+    text-align: center;
 }
 
 .ribbon-yellow {

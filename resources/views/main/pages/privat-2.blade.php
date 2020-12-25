@@ -28,7 +28,7 @@
 
 @section('content')
 
-<div class="container pb-5">
+<div class="container pb-5" style="margin-top: 100px;">
     <div class="row kursus-head">
         <div class="col-lg-4">
             <img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/2.jpg" alt="" id="thumbPrivat">
@@ -40,7 +40,7 @@
                     <h3 id="nama-kursus" style="color: #249EA0 !important;">Chelsea Hassanah</h3>
                 </div>
                 <div class="col-12">
-                    <img class="mr-2" src="partner-logo.png" width="25px" alt=""><span id="partner-text">Partner Mentor</span>
+                    <img class="mr-2" src="{{ asset('main_resources') }}/partner-logo.png" width="25px" alt=""><span id="partner-text">Partner Mentor</span>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
                             <div class="card-body row">
                                 <div class="col-3 d-flex justify-content-end align-items-center">
                                     <div>
-                                        <img class="mr-2" src="partner-logo.png" width="100px" alt="">
+                                        <img class="mr-2" src="{{ asset('main_resources') }}/partner-logo.png" width="100px" alt="">
                                     </div>
                                     
                                 </div>
@@ -144,11 +144,31 @@
                         <div class="row mt-5">
                             <div class="col-12 row">
                                 <div class="col-4">
-                                    <h6 class="kursus-body-header">Pengguna 1</h6>
+                                    <h6 class="kursus-body-header">Rafi Nizar Abiyyi</h6>
                                 </div>
                                 <div class="col-8">
                                     <p>
                                         Mengajar dengan cara yang mudah dipahami dan sabar
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 row">
+                                <div class="col-4">
+                                    <h6 class="kursus-body-header">Frediansyah</h6>
+                                </div>
+                                <div class="col-8">
+                                    <p>
+                                        Materi sangat lengkap dan pengajar sangat baik!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 row">
+                                <div class="col-4">
+                                    <h6 class="kursus-body-header">Abdur Rohman</h6>
+                                </div>
+                                <div class="col-8">
+                                    <p>
+                                        Tidak hanya materi lengkap cara menyampaikannya pun mudah dimengerti
                                     </p>
                                 </div>
                             </div>
