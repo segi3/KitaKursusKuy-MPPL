@@ -53,7 +53,7 @@
                             <div class="col-lg-6 my-2">
                                 <div class="row">
                                     <div class="col-3">
-                                        <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                                        <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/pygui.png" alt=""></a>
                                     </div>
                                     <div class="col-9">
                                         <h5 class="card-title"><a href="#">PyGUI Mudah!</a></h5> 
@@ -64,7 +64,7 @@
                             <div class="col-lg-6 my-2">
                                 <div class="row">
                                     <div class="col-3">
-                                        <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                                        <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/django.jpg" alt=""></a>
                                     </div>
                                     <div class="col-9">
                                         <h5 class="card-title"><a href="#">Membuat Galeri Website dengan Django</a></h5> 
@@ -75,7 +75,7 @@
                             <div class="col-lg-6 my-2">
                                 <div class="row">
                                     <div class="col-3">
-                                        <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                                        <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/fotoprof.png" alt=""></a>
                                     </div>
                                     <div class="col-9">
                                         <h5 class="card-title"><a href="#">Komposisi Terbaik: Fotografi Proffesional</a></h5> 
@@ -86,7 +86,7 @@
                             <div class="col-lg-6 my-2">
                                 <div class="row">
                                     <div class="col-3">
-                                        <a href="#"><img class="card-img-top" src="https://place-hold.it/286x180/F78104" alt=""></a>
+                                        <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/rahasiap.jpg" alt=""></a>
                                     </div>
                                     <div class="col-9">
                                         <h5 class="card-title"><a href="#">Rahasia Fotografi</a></h5> 

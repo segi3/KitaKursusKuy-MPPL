@@ -352,13 +352,13 @@
     <div class="row" id="kurus-pop">
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/fotografi.png" alt=""></a>
+                <a href="kursus/1"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/fotografi.png" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Fotografi</h5>
                     <p class="card-text">Rafi N</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="kursus/1" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
 
                 </div>
@@ -366,13 +366,13 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/jepang.jpg" alt=""></a>
+                <a href="kursus/2"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/jepang.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Bahasa Jepang Tingkat Pemula</h5>
                     <p class="card-text">Fredi S</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="kursus/2" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
 
                 </div>
@@ -380,13 +380,13 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/deep-learning.jpg" alt=""></a>
+                <a href="kursus/3"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/deep-learning.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Mengenal Deep Learning</h5>
                     <p class="card-text">A Rohman</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="kursus/3" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
 
                 </div>
@@ -394,13 +394,13 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/ppt.jpg" alt=""></a>
+                <a href="kursus/4"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/ppt.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Dasar Microsoft Power Point Tingkat Pemula</h5>
                     <p class="card-text">Edi Naga</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="kursus/4" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
 
                 </div>
@@ -408,13 +408,13 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/art.png" alt=""></a>
+                <a href="kursus/5"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/art.png" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Skill Dasar Dalam Menggambar</h5>
                     <p class="card-text">Rani Z</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="kursus/5" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
 
                 </div>
@@ -422,13 +422,13 @@
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/gitar.jpg" alt=""></a>
+                <a href="kursus/6"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/thumbnail/gitar.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Belajar Gitar dari 0</h5>
                     <p class="card-text">Maman A</p>
                     <div class="row">
                         <span class="col-9 price-tag">Rp 179.999</span>
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="kursus/6" class="col-2 btn btn-primary beli-btn">Beli</a>
                     </div>
                 </div>
             </div>
