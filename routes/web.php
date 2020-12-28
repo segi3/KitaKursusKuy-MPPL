@@ -72,3 +72,5 @@ Route::get('dashboard/buat-privat', 'DashboardPageController@getBuatPrivat');
 Route::get('dashboard/murid-privat', 'DashboardPageController@getMuridPrivat');
 
 Route::get('/dashboard/permintaan-privat', 'DashboardPageController@getPermintaanPrivat');
+
+Route::get('dashboard/apply-partner', 'DashboardPageController@getApplyPartner');

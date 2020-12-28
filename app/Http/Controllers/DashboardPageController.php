@@ -40,4 +40,9 @@ class DashboardPageController extends Controller
     {
         return view('dashboard.pages.permintaan-privat');
     }
+
+    function getApplyPartner()
+    {
+        return view('dashboard.pages.mentor-partner');
+    }
 }

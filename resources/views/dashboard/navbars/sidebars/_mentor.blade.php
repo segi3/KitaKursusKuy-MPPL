@@ -93,6 +93,21 @@
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 
+    <!-- Heading Privat -->
+    <div class="sidebar-heading">
+        Program
+    </div>
+
+    <!-- Nav Item - Privat -->
+    <li class="nav-item">
+        <a class="nav-link" href="/dashboard/apply-partner">
+            <i class="fas fa-fw fa-wrench"></i>
+            <span>Mentor Partnership</span></a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider d-none d-md-block">
+
     <!-- Sidebar Toggler (Sidebar) -->
     <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
