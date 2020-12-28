@@ -35,9 +35,10 @@
                         <div class="col-md-12">
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <div class="media flex-wrap w-100 align-items-center"> <img
+                                    <div class="media flex-wrap w-100 align-items-center">
+                                        {{-- <img
                                             src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
-                                            class="d-block ui-w-40 rounded-circle" alt="">
+                                            class="d-block ui-w-40 rounded-circle" alt=""> --}}
                                         <div class="media-body ml-3"> <a href="javascript:void(0)" data-abc="true">Tom
                                                 Harry</a>
                                             <div class="text-muted small">13 hari yang lalu</div>
@@ -90,9 +91,10 @@
                         <div class="col-md-12">
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <div class="media flex-wrap w-100 align-items-center"> <img
+                                    <div class="media flex-wrap w-100 align-items-center">
+                                        {{-- <img
                                             src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583336/AAA/4.jpg"
-                                            class="d-block ui-w-40 rounded-circle" alt="">
+                                            class="d-block ui-w-40 rounded-circle" alt=""> --}}
                                         <div class="media-body ml-3"> <a href="javascript:void(0)"
                                                 data-abc="true">Brehwett Sonm</a> <span
                                                 class="badge badge-secondary badge-mentor align-text-bottom ml-1">Mentor</span>
@@ -134,9 +136,10 @@
                         <div class="col-md-12">
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <div class="media flex-wrap w-100 align-items-center"> <img
+                                    <div class="media flex-wrap w-100 align-items-center">
+                                        {{-- <img
                                             src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583319/AAA/3.jpg"
-                                            class="d-block ui-w-40 rounded-circle" alt="">
+                                            class="d-block ui-w-40 rounded-circle" alt=""> --}}
                                         <div class="media-body ml-3"> <a href="javascript:void(0)" data-abc="true">Steve
                                                 Smith</a>
                                             <div class="text-muted small">13 hari yang lalu</div>
