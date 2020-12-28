@@ -53,10 +53,22 @@ Route::get('kursus-ku', 'PageController@getTransaksikursus');
 
 Route::get('privat-ku', 'PageController@getTransaksiprivat');
 
-// ! testing blade dashboard
+//! forum
+Route::get('/forum/1', 'PageController@getForumDiskusi');
+Route::get('/forum/1/1', 'PageController@getForumDiskusiThread');
+
+// ! dashboard admin
 
 Route::get('dashboard', 'DashboardPageController@getHome');
 
 Route::get('dashboard/kursus-my', 'DashboardPageController@getKursusSaya');
 
 Route::get('dashboard/buat-kursus', 'DashboardPageController@getBuatKursus');
+
+Route::get('dashboard/privat-my', 'DashboardPageController@getPrivatSaya');
+
+Route::get('dashboard/buat-privat', 'DashboardPageController@getBuatPrivat');
+
+Route::get('dashboard/murid-privat', 'DashboardPageController@getMuridPrivat');
+
+Route::get('/dashboard/permintaan-privat', 'DashboardPageController@getPermintaanPrivat');
