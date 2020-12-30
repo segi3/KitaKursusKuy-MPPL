@@ -451,7 +451,7 @@
     <div class="row" id="kurus-pop">
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/1.jpg" alt=""></a>
+                <a href="/privat/1"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/1.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Eja Suryono</h5>
                     <p class="card-text">Bahasa Jerman</p>
@@ -460,14 +460,14 @@
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
 
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="/privat/1" class="col-2 btn btn-primary beli-btn">Cek</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/2.jpg" alt=""></a>
+                <a href="/privat/2"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/2.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Chelsea Hassanah</h5>
                     <p class="card-text">Personal Trainer</p>
@@ -476,14 +476,14 @@
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
 
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="/privat/2" class="col-2 btn btn-primary beli-btn">Cek</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/3.jpg" alt=""></a>
+                <a href="/privat/3"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/3.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Banara Wisnu Pranowo</h5>
                     <p class="card-text">Pemrograman Web/Android</p>
@@ -492,14 +492,14 @@
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
 
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="/privat/3" class="col-2 btn btn-primary beli-btn">Cek</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/4.jpg" alt=""></a>
+                <a href="/privat/4"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/4.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Winda Prastuti</h5>
                     <p class="card-text">Akting Seni Peran</p>
@@ -508,14 +508,14 @@
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
 
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="/privat/4" class="col-2 btn btn-primary beli-btn">Cek</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/5.jpg" alt=""></a>
+                <a href="/privat/5"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/5.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Irfan Maulana</h5>
                     <p class="card-text">Ilmu Pengetahuan Alam</p>
@@ -524,14 +524,14 @@
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
 
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="/privat/5" class="col-2 btn btn-primary beli-btn">Cek</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 mb-4">
             <div class="card h-100 border-0">
-                <a href="#"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/6.jpg" alt=""></a>
+                <a href="/privat/6"><img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/6.jpg" alt=""></a>
                 <div class="card-body">
                     <h5 class="card-title">Rini Paramita Lestari</h5>
                     <p class="card-text">Biola</p>
@@ -540,7 +540,7 @@
                             <span class="price-tag">Rp 179.999 </span><span class="hr-tag">/jam</span>
                         </div>
 
-                        <a href="#" class="col-2 btn btn-primary beli-btn">Beli</a>
+                        <a href="/privat/6" class="col-2 btn btn-primary beli-btn">Cek</a>
                     </div>
                 </div>
             </div>
@@ -586,7 +586,7 @@
             <h1 class="">Tunggu apalagi? Mulai kembangkankan bakat mu!</h1>
             <p>Daftar akun sekarang</p>
             <div class="d-flex justify-content-center">
-                <a href="#" class="btn btn-primary ">Daftar Akun</a>
+                <a href="/user-register" class="btn btn-primary ">Daftar Akun</a>
             </div>
         </div>
         
@@ -596,7 +596,7 @@
             <h1 class="">Berbagi ilmu dengan semua orang!</h1>
             <p>Daftar menjadi mentor</p>
             <div class="d-flex justify-content-center">
-                <a href="#" class="btn btn-primary ">Daftar Mentor</a>
+                <a href="/mentor-register" class="btn btn-primary ">Daftar Mentor</a>
             </div>
         </div>
         

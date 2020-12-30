@@ -33,7 +33,7 @@
         <div class="col-lg-4">
             <img class="card-img-top" src="{{ asset('main_resources') }}/kursus/mentor/3.jpg" alt="" id="thumbPrivat">
         </div>
-        <div class="col-lg-6 parent-div">
+        <div class="col-lg-5 parent-div">
             <div class="row child-div">
                 <div class="col-12">
                     <h3 id="nama-kursus">Pemrograman Web/Android</h3>
@@ -42,7 +42,7 @@
             </div>
         </div>
         
-        <div class="col-lg-2 parent-div">
+        <div class="col-lg-3 parent-div">
             
                 <div class="row child-div d-flex align-content-center">
                     <div class="col-12">
@@ -58,7 +58,7 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Luring</label>
                         </div>
-                        <a href="" type="submit" class="btn btn-primary" style="width:100%;">Beli</a>
+                        <a href="" type="submit" class="btn btn-primary" style="width:100%;">Ajukan permintaan</a>
                         </form>
                     </div>
                 </div>
